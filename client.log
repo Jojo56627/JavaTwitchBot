@@ -1,0 +1,70 @@
+2022-04-05 19:53:34.277 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 19:53:34.521 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 19:53:34.525 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 19:53:34.544 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 19:53:34.544 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 19:53:36.026 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 19:53:36.050 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 19:53:36.251 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 19:53:37.225 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 19:53:37.226 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 19:53:37.226 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 19:53:37.228 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 19:53:37.236 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 19:53:37.236 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 19:53:37.243 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 19:53:37.292 [twitch4j-ovV0-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 19:53:37.292 [twitch4j-ovV0-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 19:53:37.406 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 19:53:37.406 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 19:53:37.406 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 19:58:01.592 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:02:30.573 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:07:01.426 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:11:48.028 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:15:56.674 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:20:12.294 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:24:44.055 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:29:24.839 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:32:42.993 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 20:32:43.198 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 20:32:43.201 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 20:32:43.215 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 20:32:43.215 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 20:32:44.675 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 20:32:44.705 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 20:32:44.907 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 20:32:45.868 [WritingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 20:32:45.869 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 20:32:45.869 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 20:32:45.871 [WritingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 20:32:45.878 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 20:32:45.878 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 20:32:45.884 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 20:32:45.924 [twitch4j-oCp5-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 20:32:45.924 [twitch4j-oCp5-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 20:32:46.049 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 20:32:46.049 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 20:32:46.049 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 20:33:36.315 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 20:36:23.045 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 20:36:23.248 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 20:36:23.251 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 20:36:23.264 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 20:36:23.265 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 20:36:24.733 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 20:36:24.766 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 20:36:24.962 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 20:36:25.935 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 20:36:25.936 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 20:36:25.936 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 20:36:25.937 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 20:36:25.944 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 20:36:25.944 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 20:36:25.950 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 20:36:25.997 [twitch4j-hKF5-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 20:36:25.997 [twitch4j-hKF5-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 20:36:26.116 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 20:36:26.116 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 20:36:26.116 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 20:37:38.653 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
