@@ -15,6 +15,8 @@ import java.util.Map;
 
 public class Bot {
 
+    private static Bot instance;
+
     /**
      * Holds the Bot Configuration
      */
@@ -34,6 +36,7 @@ public class Bot {
      * Constructor
      */
     public Bot() {
+
         // Load Configuration
         loadConfiguration();
 
@@ -78,6 +81,10 @@ public class Bot {
                  * Build the TwitchClient Instance
                  */
                 .build();
+
+        //create instance
+        instance = this;
+
         //endregion
     }
 
@@ -119,5 +126,9 @@ public class Bot {
 
     public TwitchClient getTwitchClient() {
         return twitchClient;
+    }
+
+    public static Bot getInstance() {
+        return instance;
     }
 }

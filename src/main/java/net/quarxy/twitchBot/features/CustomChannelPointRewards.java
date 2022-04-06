@@ -2,7 +2,10 @@ package net.quarxy.twitchBot.features;
 
 import com.github.philippheuer.events4j.simple.SimpleEventHandler;
 import com.github.twitch4j.pubsub.events.RewardRedeemedEvent;
+import net.quarxy.twitchBot.Bot;
 import net.quarxy.twitchBot.Launcher;
+import net.quarxy.twitchBot.utils.Utils;
+import okio.Utf8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -25,8 +28,9 @@ public class CustomChannelPointRewards {
     public void onRewardRedeem(RewardRedeemedEvent event) {
         switch (event.getRedemption().getReward().getId()) {
             case "1cfff4e1-f11f-4b35-8b8c-8b1d9c0d734e" -> {
-                System.out.println("Mods: " + Launcher.getBot().getTwitchClient().getHelix().getModerators("2hooxe55etc47yjxm1b99ezfkcnmc5",
-                        "189073898", new ArrayList<>(List.of(event.getRedemption().getUser().getId())), "", 1).execute().getModerators());
+                if(Utils.hasModPermission(event.getRedemption().getUser().getId())) {
+                    //Bot.getInstance().getTwitchClient().getHelix().updateRedemptionStatus()
+                }
             }
         }
     }

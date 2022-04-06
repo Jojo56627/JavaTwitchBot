@@ -1001,3 +1001,382 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at java.base/java.net.Socket.connect(Socket.java:633)
 	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
 	at com.neovisionaries.ws.client.SocketInitiator$SocketRacer.run(SocketInitiator.java:126)
+2022-04-06 11:53:55.469 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-06 11:53:55.944 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-06 11:53:55.949 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-06 11:53:55.979 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-06 11:53:55.979 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-06 11:54:11.858 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-06 11:54:12.016 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-06 11:54:13.549 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-06 11:54:13.577 [main] INFO  com.github.twitch4j.chat.TwitchChat - TwitchChat: AccessToken does not contain any user information, fetching using the CredentialManager ...
+2022-04-06 11:54:14.743 [main] ERROR com.github.twitch4j.chat.TwitchChat - TwitchChat: Failed to get AccessToken Information, the token is probably not valid. Please check the docs Twitch4J -> Chat on how to obtain a valid token.
+2022-04-06 11:54:15.239 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.HostnameUnverifiedException: The certificate of the peer does not match the expected hostname (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.verifyHostname(SocketConnector.java:304)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:251)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+2022-04-06 11:54:20.293 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-06 11:54:20.307 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-06 11:54:20.308 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-06 11:54:20.308 [ReadingThread] WARN  com.github.twitch4j.chat.TwitchChat - Chat: The whispers feature is currently not available because the provided credential does not hold information about the user. Please check the documentation on how to pass the token to the credentialManager where it will be enriched with the required information.
+2022-04-06 11:54:20.366 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-06 11:54:20.498 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-06 11:54:20.499 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-06 11:54:20.499 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-06 11:54:22.407 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 11:54:22.409 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 11:54:22.414 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-06 11:54:22.415 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-06 11:54:22.415 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-06 11:54:22.456 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-06 11:54:22.456 [twitch4j-AR3n-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 11:54:22.484 [twitch4j-AR3n-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 11:54:22.549 [twitch4j-AR3n-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"Af5oWLDKAaVE2dA3qdJ05HaikIo0MP","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-06 11:54:22.679 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 11:54:34.994 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-06 11:54:34.994 [twitch4j-AR3n-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-06 11:54:44.859 [ReadingThread] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5a1ecb93
+2022-04-06 11:54:45.290 [hystrix-https://api.twitch.tv/helix-1] DEBUG c.g.t.h.i.TwitchHelixClientIdInterceptor - Getting matching client-id for authorization token 2hoox
+2022-04-06 11:54:46.845 [hystrix-https://api.twitch.tv/helix-1] DEBUG c.g.t.h.i.TwitchHelixClientIdInterceptor - Setting new client-id 58qauv01z2yc1uw43tx3rharw6gxor for token 2hoox
+2022-04-06 11:56:42.727 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[jojo56627_apps] - Message ['s']] to the queue.
+2022-04-06 11:56:42.728 [twitch4j-AR3n-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[jojo56627_apps] - Message ['s']].
+2022-04-06 11:57:54.879 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[jojo56627] - Message ['s']] to the queue.
+2022-04-06 11:57:54.880 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[jojo56627] - Message ['s']].
+2022-04-06 11:58:03.335 [hystrix-https://api.twitch.tv/helix-2] DEBUG c.g.t.h.i.TwitchHelixClientIdInterceptor - Setting new client-id 58qauv01z2yc1uw43tx3rharw6gxor for token 2hoox
+2022-04-06 11:58:22.409 [twitch4j-AR3n-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 11:58:22.663 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 11:59:11.031 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 12:02:23.760 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-06 12:02:23.760 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connection to Twitch PubSub lost (WebSocket)! Retrying soon ...
+2022-04-06 12:02:23.790 [twitch4j-AR3n-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:02:25.252 [twitch4j-AR3n-2] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:02:29.135 [twitch4j-AR3n-2] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: pubsub-edge.twitch.tv - Retrying ...
+2022-04-06 12:02:53.686 [twitch4j-AR3n-2] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:02:55.576 [twitch4j-AR3n-3] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 13 common frames omitted
+2022-04-06 12:02:56.709 [twitch4j-AR3n-3] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 15 common frames omitted
+2022-04-06 12:02:58.802 [twitch4j-AR3n-3] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 17 common frames omitted
+2022-04-06 12:03:02.442 [twitch4j-AR3n-3] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 19 common frames omitted
+2022-04-06 12:03:06.879 [twitch4j-AR3n-3] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 21 common frames omitted
+2022-04-06 12:03:07.013 [twitch4j-AR3n-2] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:03:26.993 [twitch4j-AR3n-2] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:03:32.662 [twitch4j-AR3n-3] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 23 common frames omitted
+2022-04-06 12:04:13.982 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 12:04:13.983 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 12:04:14.036 [twitch4j-AR3n-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"Af5oWLDKAaVE2dA3qdJ05HaikIo0MP","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-06 12:04:28.185 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-06 12:04:28.188 [ReadingThread] WARN  com.github.twitch4j.chat.TwitchChat - Chat: The whispers feature is currently not available because the provided credential does not hold information about the user. Please check the documentation on how to pass the token to the credentialManager where it will be enriched with the required information.
+2022-04-06 12:04:28.240 [twitch4j-AR3n-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:04:34.201 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:04:34.816 [WritingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-06 12:04:34.817 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connection to Twitch PubSub lost (WebSocket)! Retrying soon ...
+2022-04-06 12:04:44.210 [twitch4j-AR3n-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:05:02.239 [twitch4j-AR3n-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:05:39.116 [twitch4j-AR3n-4] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to read an opening handshake response from the server: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen
+	at com.neovisionaries.ws.client.HandshakeReader.readStatusLine(HandshakeReader.java:93)
+	at com.neovisionaries.ws.client.HandshakeReader.readHandshake(HandshakeReader.java:48)
+	at com.neovisionaries.ws.client.WebSocket.readHandshake(WebSocket.java:3440)
+	at com.neovisionaries.ws.client.WebSocket.shakeHands(WebSocket.java:3319)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2354)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Eine bestehende Verbindung wurde softwaregesteuert
+durch den Hostcomputer abgebrochen
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:82)
+	at com.neovisionaries.ws.client.Misc.readLine(Misc.java:185)
+	at com.neovisionaries.ws.client.WebSocketInputStream.readLine(WebSocketInputStream.java:34)
+	at com.neovisionaries.ws.client.HandshakeReader.readStatusLine(HandshakeReader.java:86)
+	... 13 common frames omitted
+2022-04-06 12:06:14.595 [twitch4j-AR3n-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:06:33.335 [twitch4j-AR3n-4] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 15 common frames omitted
+2022-04-06 12:06:42.293 [twitch4j-AR3n-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:09:34.419 [twitch4j-AR3n-4] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat$1.lambda$onDisconnected$3(TwitchChat.java:622)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 17 common frames omitted
+2022-04-06 12:09:54.782 [twitch4j-AR3n-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:10:21.481 [twitch4j-AR3n-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-06 12:13:12.273 [ForkJoinPool.commonPool-worker-6] WARN  com.github.twitch4j.chat.TwitchChat - Chat connection exhausted retries when attempting to join channel: grifermob
+2022-04-06 12:13:48.107 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 12:13:48.108 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 12:13:48.161 [twitch4j-AR3n-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"Af5oWLDKAaVE2dA3qdJ05HaikIo0MP","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-06 12:14:17.247 [twitch4j-AR3n-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:14:17.517 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:16:20.705 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-06 12:16:20.705 [ReadingThread] WARN  com.github.twitch4j.chat.TwitchChat - Chat: The whispers feature is currently not available because the provided credential does not hold information about the user. Please check the documentation on how to pass the token to the credentialManager where it will be enriched with the required information.
+2022-04-06 12:16:20.774 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:16:20.774 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:16:20.774 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:16:20.774 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:16:20.774 [twitch4j-AR3n-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 12:16:20.956 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-06 12:16:20.957 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-06 12:16:20.957 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-06 12:18:17.249 [twitch4j-AR3n-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:18:17.489 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:20:41.991 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 12:22:17.255 [twitch4j-AR3n-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:22:17.510 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:25:00.712 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 12:26:17.255 [twitch4j-AR3n-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:26:17.533 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:29:36.101 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 12:30:17.256 [twitch4j-AR3n-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:30:17.582 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:33:48.780 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 12:34:17.258 [twitch4j-AR3n-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:34:25.421 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:38:17.248 [twitch4j-AR3n-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 12:38:17.517 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 12:38:34.897 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
