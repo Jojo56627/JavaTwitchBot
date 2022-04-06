@@ -1,0 +1,1 @@
+https://id.twitch.tv/oauth2/authorize?client_id=58qauv01z2yc1uw43tx3rharw6gxor&redirect_uri=http://localhost&response_type=token&scope=channel:manage:redemptions

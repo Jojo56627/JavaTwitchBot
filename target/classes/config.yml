@@ -8,9 +8,6 @@
 #   \_/ \_/\_/ |_|\__\___|_| |_|   |_/\____/   \____/_| |_|\__,_|\__|_.__/ \___/ \__|  #
 #                                                                                      #
 #                                                                                      #
-#      This is an example configuration file for a Twitch4J Chatbot.                   #
-#      Please read and change all options to suit your setup.                          #
-#      Then rename the file to config.yaml                                             #
 #                                                                                      #
 ########################################################################################
 
@@ -33,7 +30,8 @@ api:
 # Credentials
 credentials:
   # OAuth Token for IRC USer (You can get yours here: http://twitchapps.com/tmi/)
-  irc: oauth:k0w2r2knp3jc5zvx44vgwx70xif52d
+  irc: oauth:zjn3ae67d7indggas5r1owbi4u4q2l #oauth:k0w2r2knp3jc5zvx44vgwx70xif52d
+  irc_broadcaster: oauth:sld9drdqkjh7mhlgn55akqwbkdt07a
 
 # Channels - The bot will connect to all listed channels
 channels:

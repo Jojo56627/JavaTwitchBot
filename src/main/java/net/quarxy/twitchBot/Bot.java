@@ -2,10 +2,18 @@ package net.quarxy.twitchBot;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactoryBuilder;
+import com.fasterxml.jackson.dataformat.yaml.YAMLParser;
 import com.github.philippheuer.credentialmanager.domain.OAuth2Credential;
 import com.github.philippheuer.events4j.simple.SimpleEventHandler;
 import com.github.twitch4j.TwitchClient;
 import com.github.twitch4j.TwitchClientBuilder;
+import com.github.twitch4j.chat.TwitchChat;
+import com.github.twitch4j.chat.TwitchChatBuilder;
+import com.github.twitch4j.eventsub.domain.Reward;
+import com.github.twitch4j.helix.domain.CustomReward;
+import com.github.twitch4j.pubsub.domain.ChannelPointsReward;
+import com.github.twitch4j.tmi.domain.Chatters;
 import net.quarxy.twitchBot.features.CustomChannelPointRewards;
 import net.quarxy.twitchBot.features.WriteChannelChatToConsole;
 
@@ -28,9 +36,10 @@ public class Bot {
     private final TwitchClient twitchClient;
 
     /**
-     * Holds the Credentials of the bot's twitch-account
+     * Holds the Credentials of the Bot's twitch-account and the Broadcaster's Account
      */
     private final OAuth2Credential credential;
+    private final OAuth2Credential broadcaster_credential;
 
     /**
      * Constructor
@@ -47,13 +56,28 @@ public class Bot {
                 "twitch",
                 configuration.getCredentials().get("irc")
         );
+
+        //ChatAuth of Broadcaster
+        broadcaster_credential = new OAuth2Credential(
+                "twitch",
+                configuration.getCredentials().get("irc_broadcaster")
+        );
+
         //endregion
 
         //region TwitchClient
         twitchClient = clientBuilder
+                /*
+                 * Connection to the Twitch-API Application
+                 */
                 .withClientId(configuration.getApi().get("twitch_client_id"))
                 .withClientSecret(configuration.getApi().get("twitch_client_secret"))
                 .withEnableHelix(true)
+
+                /*
+                 * TMI Module to get Viewers
+                 */
+                .withEnableTMI(true)
                 /*
                  * Chat Module
                  * Joins irc and triggers all chat based events (viewer join/leave/sub/bits/gifted subs/...)
@@ -61,6 +85,7 @@ public class Bot {
                 .withChatAccount(credential)
                 .withDefaultAuthToken(credential)
                 .withEnableChat(true)
+
                 /*
                  * GraphQL has a limited support
                  * Don't expect a bunch of features enabling it
@@ -122,6 +147,17 @@ public class Bot {
             twitchClient.getChat().joinChannel(channel);
         }
         twitchClient.getPubSub().listenForChannelPointsRedemptionEvents(credential, "189073898");
+
+/*
+        Chatters chatters = twitchClient.getMessagingInterface().getChatters("grifermob").execute();
+
+        System.out.println("Broadcaster: " + chatters.getBroadcaster());
+        System.out.println("VIPs: " + chatters.getVips());
+        System.out.println("Mods: " + chatters.getModerators());
+        System.out.println("Admins: " + chatters.getAdmins());
+        System.out.println("Staff: " + chatters.getStaff());
+        System.out.println("Viewers: " + chatters.getViewers());
+        System.out.println("All Viewers (sum of the above): " + chatters.getAllViewers());*/
     }
 
     public TwitchClient getTwitchClient() {
@@ -130,5 +166,54 @@ public class Bot {
 
     public static Bot getInstance() {
         return instance;
+    }
+
+    public void createRewards() {
+
+/*
+*         CustomReward customReward = CustomReward.builder()
+                .broadcasterId("189073898")
+                .broadcasterLogin("grifermob")
+                .broadcasterName("Grifermob")
+                .title("Time Out")
+                .prompt("Du hast die Ehre von mir oder einem meiner Mods für 45 Sekunden ins Wunderland geschickt zu werden.")
+                .cost(500)
+                .isEnabled(true)
+                .backgroundColor("#BEFF00")
+                .isUserInputRequired(false)
+                .maxPerStreamSetting(new CustomReward.MaxPerStreamSetting().toBuilder().isEnabled(false).build())
+                .globalCooldownSetting(new CustomReward.GlobalCooldownSetting().toBuilder().isEnabled(false).build())
+                .maxPerUserPerStreamSetting(new CustomReward.MaxPerUserPerStreamSetting().toBuilder().isEnabled(false).build())
+                .isPaused(false)
+                .isInStock(true)
+                .shouldRedemptionsSkipRequestQueue(false)
+                .redemptionsRedeemedCurrentStream(null)
+                .cooldownExpiresAt(null)
+                .build();
+        twitchClient.getHelix().createCustomReward("0ruv4lzljoqs2n0bhbs3qslvbkfj9m", "189073898", customReward).execute();*/
+        CustomReward customReward = CustomReward.builder()
+                .broadcasterId("189073898")
+                .broadcasterLogin("grifermob")
+                .broadcasterName("Grifermob")
+                .title("30 Tage VIP")
+                .prompt("Solltest du als erstes 100k erreichen bekommst du VIP (Es sind 3 plätze frei). Der Status VIP ist für 30 Tage verfügbar.")
+                .cost(10)
+                .isEnabled(true)
+                .backgroundColor("#FF05D2")
+                .isUserInputRequired(false)
+                .maxPerStreamSetting(new CustomReward.MaxPerStreamSetting().toBuilder().isEnabled(false).build())
+                .globalCooldownSetting(new CustomReward.GlobalCooldownSetting().toBuilder().isEnabled(false).build())
+                .maxPerUserPerStreamSetting(new CustomReward.MaxPerUserPerStreamSetting().toBuilder().isEnabled(false).build())
+                .isPaused(false)
+                .isInStock(true)
+                .shouldRedemptionsSkipRequestQueue(false)
+                .redemptionsRedeemedCurrentStream(null)
+                .cooldownExpiresAt(null)
+                .build();
+        twitchClient.getHelix().createCustomReward("0ruv4lzljoqs2n0bhbs3qslvbkfj9m", "189073898", customReward).execute();
+    }
+
+    public TwitchChat getBroadcasterChat() {
+        return TwitchChatBuilder.builder().withChatAccount(broadcaster_credential).withAutoJoinOwnChannel(true).build();
     }
 }

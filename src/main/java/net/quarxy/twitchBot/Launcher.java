@@ -6,6 +6,7 @@ public class Launcher {
 		System.out.println("Starting Bot App ...");
 		Bot bot = new Bot();
 		bot.registerFeatures();
+		//bot.createRewards();
 		bot.start();
 		System.out.println("Finished. Bot running:");
 	}
