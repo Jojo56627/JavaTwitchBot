@@ -19,11 +19,15 @@ public class WriteChannelChatToConsole {
      */
     public void onChannelMessage(ChannelMessageEvent event) {
         System.out.printf(
-                "Channel [%s] - User[%s] - Message [%s]%n",
-                event.getChannel().getName(),
+                "Channel [%s] - User[%s] - Message ['%s']%n",
+                event.getChannel().getName() + " - " + event.getChannel().getId(),
                 event.getUser().getName(),
                 event.getMessage()
         );
+        event.getTwitchChat().sendMessage(event.getChannel().getName(),
+                "Channel ["+event.getChannel().getName()+
+                        "] - User["+event.getUser().getName()+
+                        "] - Message ['"+event.getMessage()+"']");
     }
 
 }

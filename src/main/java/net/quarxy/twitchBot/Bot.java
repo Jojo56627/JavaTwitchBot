@@ -6,12 +6,12 @@ import com.github.philippheuer.credentialmanager.domain.OAuth2Credential;
 import com.github.philippheuer.events4j.simple.SimpleEventHandler;
 import com.github.twitch4j.TwitchClient;
 import com.github.twitch4j.TwitchClientBuilder;
-import net.quarxy.twitchBot.features.ChannelNotificationOnDonation;
-import net.quarxy.twitchBot.features.ChannelNotificationOnFollow;
-import net.quarxy.twitchBot.features.ChannelNotificationOnSubscription;
+import net.quarxy.twitchBot.features.CustomChannelPointRewards;
 import net.quarxy.twitchBot.features.WriteChannelChatToConsole;
 
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Bot {
 
@@ -26,6 +26,11 @@ public class Bot {
     private final TwitchClient twitchClient;
 
     /**
+     * Holds the Credentials of the bot's twitch-account
+     */
+    private final OAuth2Credential credential;
+
+    /**
      * Constructor
      */
     public Bot() {
@@ -35,7 +40,7 @@ public class Bot {
         TwitchClientBuilder clientBuilder = TwitchClientBuilder.builder();
 
         //region Auth
-        OAuth2Credential credential = new OAuth2Credential(
+        credential = new OAuth2Credential(
                 "twitch",
                 configuration.getCredentials().get("irc")
         );
@@ -66,6 +71,10 @@ public class Bot {
                  */
                 .withEnableKraken(true)
                 /*
+                * PubSub is used to subscribe to not-irc events
+                */
+                .withEnablePubSub(true)
+                /*
                  * Build the TwitchClient Instance
                  */
                 .build();
@@ -79,10 +88,8 @@ public class Bot {
 		SimpleEventHandler eventHandler = twitchClient.getEventManager().getEventHandler(SimpleEventHandler.class);
 
         // Register Event-based features
-        ChannelNotificationOnDonation channelNotificationOnDonation = new ChannelNotificationOnDonation(eventHandler);
-        ChannelNotificationOnFollow channelNotificationOnFollow = new ChannelNotificationOnFollow(eventHandler);
-        ChannelNotificationOnSubscription channelNotificationOnSubscription = new ChannelNotificationOnSubscription(eventHandler);
-		WriteChannelChatToConsole writeChannelChatToConsole = new WriteChannelChatToConsole(eventHandler);
+        CustomChannelPointRewards customChannelPointRewards = new CustomChannelPointRewards(eventHandler);
+        WriteChannelChatToConsole writeChannelChatToConsole = new WriteChannelChatToConsole(eventHandler);
     }
 
     /**
@@ -107,6 +114,10 @@ public class Bot {
         for (String channel : configuration.getChannels()) {
             twitchClient.getChat().joinChannel(channel);
         }
+        twitchClient.getPubSub().listenForChannelPointsRedemptionEvents(credential, "189073898");
     }
 
+    public TwitchClient getTwitchClient() {
+        return twitchClient;
+    }
 }

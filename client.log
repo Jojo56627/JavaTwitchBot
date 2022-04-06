@@ -68,3 +68,936 @@
 2022-04-05 20:36:26.116 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
 2022-04-05 20:36:26.116 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
 2022-04-05 20:37:38.653 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 21:32:57.656 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 21:32:58.232 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 21:32:58.240 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 21:32:58.272 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 21:32:58.272 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 21:33:00.660 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 21:33:00.750 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 21:33:01.072 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 21:33:02.388 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 21:33:02.401 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 21:33:02.402 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 21:33:02.403 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 21:33:02.424 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 21:33:02.424 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 21:33:02.449 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 21:33:02.457 [twitch4j-0e1t-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 21:33:02.457 [twitch4j-0e1t-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 21:33:02.688 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 21:33:02.688 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 21:33:02.695 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 21:33:55.665 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [%s] - User[%s] - Message [%s]%ngrifermobobi_wan_knobi2002s] to the queue.
+2022-04-05 21:33:55.665 [twitch4j-0e1t-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [%s] - User[%s] - Message [%s]%ngrifermobobi_wan_knobi2002s].
+2022-04-05 21:37:09.533 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 21:37:10.018 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 21:37:10.026 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 21:37:10.050 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 21:37:10.050 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 21:37:12.610 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 21:37:12.708 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 21:37:12.983 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 21:37:14.304 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 21:37:14.305 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 21:37:14.308 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 21:37:14.308 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 21:37:14.340 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 21:37:14.340 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 21:37:14.356 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 21:37:14.368 [twitch4j-SwNs-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 21:37:14.368 [twitch4j-SwNs-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 21:37:14.498 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 21:37:14.498 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 21:37:14.498 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 21:37:16.141 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[obi_wan_knobi2002] - Message [:D]] to the queue.
+2022-04-05 21:37:16.199 [twitch4j-SwNs-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[obi_wan_knobi2002] - Message [:D]].
+2022-04-05 21:37:24.947 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[obi_wan_knobi2002] - Message [[:D]]] to the queue.
+2022-04-05 21:37:24.950 [twitch4j-SwNs-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[obi_wan_knobi2002] - Message [[:D]]].
+2022-04-05 21:42:08.780 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 21:46:30.616 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 21:46:31.159 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 21:46:31.167 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 21:46:31.201 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 21:46:31.201 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 21:46:33.571 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 21:46:33.679 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 21:46:33.939 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 21:46:35.157 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 21:46:35.157 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 21:46:35.157 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 21:46:35.165 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 21:46:35.189 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 21:46:35.189 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 21:46:35.197 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 21:46:35.222 [twitch4j-j4FJ-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 21:46:35.222 [twitch4j-j4FJ-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 21:46:35.459 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 21:46:35.459 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 21:46:35.459 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 21:46:40.170 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[obi_wan_knobi2002] - Message ['s']] to the queue.
+2022-04-05 21:46:40.170 [twitch4j-j4FJ-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[obi_wan_knobi2002] - Message ['s']].
+2022-04-05 21:46:47.480 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[obi_wan_knobi2002] - Message [':D']] to the queue.
+2022-04-05 21:46:47.488 [twitch4j-j4FJ-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[obi_wan_knobi2002] - Message [':D']].
+2022-04-05 21:51:11.637 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 21:55:15.964 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 21:56:02.346 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 21:56:02.896 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 21:56:02.904 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 21:56:02.941 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 21:56:02.945 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 21:56:05.306 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 21:56:05.421 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 21:56:05.756 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 21:56:07.057 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 21:56:07.065 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 21:56:07.065 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 21:56:07.073 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 21:56:07.084 [WritingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-05 21:56:07.098 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 21:56:07.131 [twitch4j-wY9k-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 21:56:08.297 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 21:56:08.299 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 21:56:08.299 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 21:56:08.302 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 21:56:08.302 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 21:56:08.318 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 21:56:08.369 [twitch4j-wY9k-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 21:56:08.415 [twitch4j-wY9k-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"M0Z01647CMHjksITo45HyP6sIlfCJS","data":{"topics":["community-points-channel-v1.null"],"auth_token":"•••"}}].
+2022-04-05 21:56:10.857 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 21:56:10.908 [twitch4j-wY9k-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 21:56:10.909 [twitch4j-wY9k-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 21:56:11.062 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 21:56:11.063 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 21:56:11.063 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 21:56:11.208 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 21:56:14.336 [twitch4j-wY9k-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:00:08.309 [twitch4j-wY9k-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:00:08.528 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:00:16.985 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 22:00:31.169 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message [':D']] to the queue.
+2022-04-05 22:00:31.176 [twitch4j-wY9k-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message [':D']].
+2022-04-05 22:01:40.248 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:01:40.960 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:01:40.976 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:01:41.023 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:01:41.030 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:01:43.817 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:01:43.942 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:01:44.207 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:01:45.597 [WritingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:01:45.605 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:01:45.606 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:01:45.613 [WritingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:01:45.636 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:01:45.664 [twitch4j-mLki-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:01:45.815 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:01:45.816 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:01:45.816 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:01:46.839 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:01:46.841 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:01:46.841 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:01:46.848 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:01:46.848 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:01:46.869 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:01:46.920 [twitch4j-mLki-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:01:46.971 [twitch4j-mLki-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"j22GO5T3reaqRfwutCuiDGkGTHI49i","data":{"topics":["community-points-channel-v1.null"],"auth_token":"•••"}}].
+2022-04-05 22:01:50.376 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:01:50.380 [twitch4j-mLki-5] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:02:57.106 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:02:57.992 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:02:58.010 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:02:58.052 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:02:58.060 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:03:01.477 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:03:01.678 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:03:02.092 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:03:03.660 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:03:03.655 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:03:03.661 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:03:03.674 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:03:03.712 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:03:03.723 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:03:03.851 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:03:03.852 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:03:03.852 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:03:04.871 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:03:04.874 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:03:04.874 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:03:04.877 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:03:04.877 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:03:04.911 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:03:04.956 [twitch4j-2lYW-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:03:04.966 [twitch4j-2lYW-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:03:05.021 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"pCG8QY796QYVNFDzwEpebqM8SXVC5i","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:03:05.212 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:03:11.554 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:03:11.558 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:03:19.313 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message [':D']] to the queue.
+2022-04-05 22:03:19.314 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message [':D']].
+2022-04-05 22:03:44.350 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:03:44.351 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:03:44.354 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:03:44.356 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:03:44.360 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:03:44.362 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:03:50.918 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:03:50.920 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:03:52.987 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['2']] to the queue.
+2022-04-05 22:03:52.988 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['2']].
+2022-04-05 22:03:54.405 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['3']] to the queue.
+2022-04-05 22:03:54.406 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['3']].
+2022-04-05 22:03:56.231 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['4']] to the queue.
+2022-04-05 22:03:56.235 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['4']].
+2022-04-05 22:03:56.695 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['5']] to the queue.
+2022-04-05 22:03:56.696 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['5']].
+2022-04-05 22:03:57.111 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['6']] to the queue.
+2022-04-05 22:03:57.112 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['6']].
+2022-04-05 22:03:57.714 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['7']] to the queue.
+2022-04-05 22:03:57.715 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['7']].
+2022-04-05 22:04:36.370 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['1']] to the queue.
+2022-04-05 22:04:36.371 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['1']].
+2022-04-05 22:04:37.953 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['2']] to the queue.
+2022-04-05 22:04:37.954 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['2']].
+2022-04-05 22:04:38.652 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['3']] to the queue.
+2022-04-05 22:04:38.653 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['3']].
+2022-04-05 22:04:38.993 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['4']] to the queue.
+2022-04-05 22:04:38.994 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['4']].
+2022-04-05 22:04:39.442 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['5']] to the queue.
+2022-04-05 22:04:39.444 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['5']].
+2022-04-05 22:04:39.989 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['56']] to the queue.
+2022-04-05 22:04:39.990 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['56']].
+2022-04-05 22:04:40.846 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['6']] to the queue.
+2022-04-05 22:04:40.849 [twitch4j-2lYW-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['6']].
+2022-04-05 22:06:13.023 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['Hallo Welt']] to the queue.
+2022-04-05 22:06:13.026 [twitch4j-2lYW-5] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['Hallo Welt']].
+2022-04-05 22:07:04.873 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:07:05.105 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:07:39.000 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 22:29:18.699 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:29:19.125 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:29:19.125 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:29:19.125 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:29:19.133 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:29:19.327 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connection to Twitch PubSub lost (WebSocket)! Retrying soon ...
+2022-04-05 22:29:19.335 [twitch4j-2lYW-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: Der angegebene Host ist unbekannt (pubsub-edge.twitch.tv) - Retrying ...
+2022-04-05 22:29:19.674 [twitch4j-2lYW-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: pubsub-edge.twitch.tv - Retrying ...
+2022-04-05 22:29:21.474 [twitch4j-2lYW-5] ERROR c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Connection to Twitch PubSub failed: Failed to resolve hostname pubsub-edge.twitch.tv:443: pubsub-edge.twitch.tv - Retrying ...
+2022-04-05 22:29:34.115 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:29:34.115 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:29:34.168 [twitch4j-2lYW-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"pCG8QY796QYVNFDzwEpebqM8SXVC5i","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:30:09.018 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-05 22:30:12.839 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:30:12.905 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:30:12.905 [twitch4j-2lYW-3] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:30:13.021 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:30:13.021 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:30:13.021 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:30:48.373 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:30:48.649 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:30:48.653 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:30:48.669 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:30:48.669 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:30:50.432 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:30:50.476 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:30:50.682 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:30:51.742 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:30:51.752 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:30:51.753 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:30:51.755 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:30:51.780 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:30:51.807 [twitch4j-CcX2-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:30:51.938 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:30:51.938 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:30:51.938 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:30:52.811 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:30:52.812 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:30:52.812 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:30:52.814 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:30:52.815 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:30:52.831 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:30:52.882 [twitch4j-CcX2-5] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:30:52.906 [twitch4j-CcX2-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"EBcBVMMQYESjfs9ll7qiBTrOuebNs7","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:34:52.827 [twitch4j-CcX2-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:34:53.015 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:34:59.881 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 22:38:52.818 [twitch4j-CcX2-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:38:53.001 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:39:04.278 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 22:41:49.174 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:41:49.418 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:41:49.426 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:41:49.451 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:41:49.451 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:41:51.179 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:41:51.223 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:41:51.436 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:41:52.504 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:41:52.500 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:41:52.504 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:41:52.510 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:41:52.531 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:41:52.566 [twitch4j-UO68-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:41:52.689 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:41:52.690 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:41:52.690 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:41:53.535 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:41:53.536 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:41:53.538 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:41:53.539 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:41:53.540 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:41:53.557 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:41:53.558 [twitch4j-UO68-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:41:53.637 [twitch4j-UO68-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"HUaeKsnOOFOu8upuEDwvb6vchNlzWH","data":{"topics":["community-points-channel-v1.null"],"auth_token":"•••"}}].
+2022-04-05 22:44:10.541 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:44:10.788 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:44:10.793 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:44:10.811 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:44:10.812 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:44:12.483 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:44:12.531 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:44:12.735 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:44:13.782 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:44:13.785 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:44:13.785 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:44:13.790 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:44:13.807 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:44:13.845 [twitch4j-99Xz-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:44:13.968 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:44:13.968 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:44:13.968 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:44:14.809 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:44:14.811 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:44:14.811 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:44:14.813 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:44:14.813 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:44:14.831 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:44:14.831 [twitch4j-99Xz-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:44:15.128 [twitch4j-99Xz-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"dQ3TuO4KQUwBgFApoploNVBkvk9HIw","data":{"topics":["community-points-channel-v1.null"],"auth_token":"•••"}}].
+2022-04-05 22:44:18.218 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message ['s']] to the queue.
+2022-04-05 22:44:18.220 [twitch4j-99Xz-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message ['s']].
+2022-04-05 22:44:23.674 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Adding message for channel [grifermob] with content [Channel [grifermob] - User[grifermob] - Message [':D']] to the queue.
+2022-04-05 22:44:23.675 [twitch4j-99Xz-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [PRIVMSG #grifermob :Channel [grifermob] - User[grifermob] - Message [':D']].
+2022-04-05 22:44:55.217 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:44:55.455 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:44:55.459 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:44:55.474 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:44:55.474 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:44:57.170 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:44:57.208 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:44:57.424 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:44:58.449 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:44:58.446 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:44:58.450 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:44:58.456 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:44:58.475 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:44:58.507 [twitch4j-Fabq-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:44:58.633 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:44:58.633 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:44:58.634 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:44:59.459 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:44:59.460 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:44:59.461 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:44:59.465 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:44:59.465 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:44:59.494 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:44:59.494 [twitch4j-Fabq-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:44:59.506 [twitch4j-Fabq-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:44:59.705 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:44:59.755 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"IA7jeYlsmCXsOASYOpAAwQAgu5fiJs","data":{"topics":["community-points-channel-v1.null"],"auth_token":"•••"}}].
+2022-04-05 22:45:28.991 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"Mu8agFNQ82jbh9Z1P8rWsVfpCNs5q5","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:45:28.992 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"OOzup8dEVdKq7EyYAOqprryaj3PAW8","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:45:28.993 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"aPbjIz99pXrtG5bCFtJlugLCnyxTio","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:45:28.995 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"vDspKlx7TcJkvnxJWnYzd9OqME6sdk","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:45:28.995 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"qFPGqfoKQpoJXRZwHKlHDbjJKoVi0A","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:45:28.996 [twitch4j-Fabq-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"GCLXmStCs5u6cllRL62B7DfaDLPoAU","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:45:49.381 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:45:49.653 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:45:49.659 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:45:49.675 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:45:49.675 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:45:51.425 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:45:51.469 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:45:51.697 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:45:52.779 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:45:52.776 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:45:52.779 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:45:52.786 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:45:52.807 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:45:52.840 [twitch4j-L2zl-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:45:52.968 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:45:52.969 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:45:52.969 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:45:53.832 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:45:53.834 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:45:53.834 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:45:53.836 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:45:53.837 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:45:53.852 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:45:53.903 [twitch4j-L2zl-1] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:45:54.215 [twitch4j-L2zl-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"pme7FXRT8s0HrqNYs06jxNE7dMhxHv","data":{"topics":["community-points-channel-v1.null"],"auth_token":"•••"}}].
+2022-04-05 22:46:07.204 [twitch4j-L2zl-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"cPXb6gvuMU5IPXAHMIwNABygtA4avP","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:46:07.205 [twitch4j-L2zl-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"SZWHcvil698KM8YSX1YFIY1VPzHJZE","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:46:07.205 [twitch4j-L2zl-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"QRjIBjDWYPfbFrnFRH78EI7ACjPePt","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:46:07.206 [twitch4j-L2zl-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"fVUB5b2xQuGiNqq2AuM3KKxA5pDSGO","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:46:07.208 [twitch4j-L2zl-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"tbu8FqeFVKfW3qwiBhdRelS2Hmf7i1","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:46:07.208 [twitch4j-L2zl-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"zu14e1wXlobLDnVojPpcwdh1E0wQ09","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:48:07.929 [twitch4j-L2zl-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"mKsL5xDTUARWKaT2ooP57hqSmeUtxi","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:49:35.163 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 22:49:35.401 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 22:49:35.408 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 22:49:35.426 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 22:49:35.426 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 22:49:37.153 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 22:49:37.193 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 22:49:37.411 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 22:49:38.462 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 22:49:38.459 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 22:49:38.462 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 22:49:38.468 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 22:49:38.489 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 22:49:38.522 [twitch4j-tDo1-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 22:49:38.649 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 22:49:38.649 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 22:49:38.650 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 22:49:39.486 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:49:39.488 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 22:49:39.488 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 22:49:39.491 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 22:49:39.491 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 22:49:39.514 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 22:49:39.515 [twitch4j-tDo1-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 22:49:39.525 [twitch4j-tDo1-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:49:39.583 [twitch4j-tDo1-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"Et9KZFuxIDulJEhwEgGdq7WmSDRlKH","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 22:49:39.726 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:53:39.497 [twitch4j-tDo1-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:53:39.677 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:53:47.567 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 22:57:39.493 [twitch4j-tDo1-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 22:57:39.673 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 22:58:03.110 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:01:39.490 [twitch4j-tDo1-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:01:39.671 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:02:49.356 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:05:39.491 [twitch4j-tDo1-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:05:39.674 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:07:09.622 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:09:39.493 [twitch4j-tDo1-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:09:39.676 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:11:59.556 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:13:39.501 [twitch4j-tDo1-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:13:39.682 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:16:21.570 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:17:39.497 [twitch4j-tDo1-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:17:39.677 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:20:33.495 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:21:20.893 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 23:21:21.121 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 23:21:21.125 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 23:21:21.142 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 23:21:21.143 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 23:21:22.959 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 23:21:23.001 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 23:21:23.221 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 23:21:24.324 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 23:21:24.328 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 23:21:24.328 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 23:21:24.336 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 23:21:24.361 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 23:21:24.393 [twitch4j-v6oG-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 23:21:24.516 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 23:21:24.516 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 23:21:24.517 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 23:21:25.377 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 23:21:25.380 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 23:21:25.381 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 23:21:25.383 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 23:21:25.383 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 23:21:25.408 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 23:21:25.421 [twitch4j-v6oG-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:21:25.460 [twitch4j-v6oG-4] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 23:21:25.473 [twitch4j-v6oG-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"5gfooM7Oioa03CSGFXJW8Xfrzuf1g4","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 23:21:25.625 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:21:35.668 [ReadingThread] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2d0ac780
+2022-04-05 23:22:29.561 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-05 23:22:29.899 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-05 23:22:29.910 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-05 23:22:29.944 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-05 23:22:29.944 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-05 23:22:31.724 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-05 23:22:31.765 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-05 23:22:32.011 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-05 23:22:33.091 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Started IRC Queue Worker
+2022-04-05 23:22:33.091 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Registering the following command triggers: []
+2022-04-05 23:22:33.088 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-05 23:22:33.099 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [jojo56627_apps].
+2022-04-05 23:22:33.121 [main] DEBUG c.g.t.pubsub.TwitchPubSubBuilder - PubSub: Initializing Module ...
+2022-04-05 23:22:33.164 [twitch4j-0MEF-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-05 23:22:33.282 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-05 23:22:33.282 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-05 23:22:33.283 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-05 23:22:34.133 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 23:22:34.134 [main] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Started Queue Worker Thread
+2022-04-05 23:22:34.135 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-05 23:22:34.137 [main] DEBUG c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: Initializing Module ...
+2022-04-05 23:22:34.137 [main] WARN  c.g.t.graphql.TwitchGraphQLBuilder - GraphQL: GraphQL is a experimental module not intended for third-party use, please take care as some features might break unannounced.
+2022-04-05 23:22:34.152 [main] DEBUG com.github.twitch4j.chat.TwitchChat - Joining Channel [grifermob].
+2022-04-05 23:22:34.152 [twitch4j-0MEF-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-05 23:22:34.222 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"EtQQtX1mSiy5EqTGtFJv9Nwj19YQ7x","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-05 23:22:39.995 [ReadingThread] INFO  c.n.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@8ed84d1
+2022-04-05 23:22:40.161 [hystrix-https://api.twitch.tv/helix-1] DEBUG c.g.t.h.i.TwitchHelixClientIdInterceptor - Setting new client-id q6batx0epp608isickayubi39itsckt for token k0w2r
+2022-04-05 23:22:40.529 [ReadingThread] WARN  c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Unparsable Message: {"type":"MESSAGE","data":{"topic":"community-points-channel-v1.189073898","message":"{\"type\":\"reward-redeemed\",\"data\":{\"timestamp\":\"2022-04-05T21:22:38.758750309Z\",\"redemption\":{\"id\":\"6e625519-7020-4f5e-884e-271be5a56a0b\",\"user\":{\"id\":\"189073898\",\"login\":\"grifermob\",\"display_name\":\"Grifermob\"},\"channel_id\":\"189073898\",\"redeemed_at\":\"2022-04-05T21:22:38.758750309Z\",\"reward\":{\"id\":\"1cfff4e1-f11f-4b35-8b8c-8b1d9c0d734e\",\"channel_id\":\"189073898\",\"title\":\"Time-out\",\"prompt\":\"Du hast die Ehre von mir oder mein Mods für Zwei Minuten ins Wunderland geschickt zu werden.\",\"cost\":500,\"is_user_input_required\":false,\"is_sub_only\":false,\"image\":null,\"default_image\":{\"url_1x\":\"https://static-cdn.jtvnw.net/custom-reward-images/clock-1.png\",\"url_2x\":\"https://static-cdn.jtvnw.net/custom-reward-images/clock-2.png\",\"url_4x\":\"https://static-cdn.jtvnw.net/custom-reward-images/clock-4.png\"},\"background_color\":\"#BEFF00\",\"is_enabled\":true,\"is_paused\":false,\"is_in_stock\":true,\"max_per_stream\":{\"is_enabled\":false,\"max_per_stream\":1},\"should_redemptions_skip_request_queue\":false,\"template_id\":\"template:255258f1-642e-4268-815c-fb282178c424\",\"updated_for_indicator_at\":\"2021-03-05T09:37:32.552192188Z\",\"max_per_user_per_stream\":{\"is_enabled\":false,\"max_per_user_per_stream\":0},\"global_cooldown\":{\"is_enabled\":false,\"global_cooldown_seconds\":0},\"redemptions_redeemed_current_stream\":null,\"cooldown_expires_at\":null},\"status\":\"UNFULFILLED\",\"cursor\":\"NmU2MjU1MTktNzAyMC00ZjVlLTg4NGUtMjcxYmU1YTU2YTBiX18yMDIyLTA0LTA1VDIxOjIyOjM4Ljc1ODc1MDMwOVo=\"}}}"}}
+ - [TwitchHelix#getModerators(String,String,List,String,Integer) failed and no fallback available.]
+2022-04-05 23:26:34.135 [twitch4j-0MEF-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:26:34.318 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:27:04.887 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:30:34.135 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:30:34.318 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:31:31.165 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:34:34.140 [twitch4j-0MEF-4] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:34:34.323 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:36:20.310 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:38:34.142 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:38:34.324 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:40:26.301 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:42:34.138 [twitch4j-0MEF-2] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:42:34.319 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:45:07.459 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:46:34.143 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:46:34.323 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:49:31.327 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:50:34.136 [twitch4j-0MEF-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:50:34.320 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:53:44.526 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:54:34.148 [twitch4j-0MEF-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:54:34.330 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-05 23:58:01.697 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-05 23:58:34.147 [twitch4j-0MEF-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-05 23:58:34.326 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 01:45:25.142 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connection to Twitch PubSub lost (WebSocket)! Retrying soon ...
+2022-04-06 01:45:26.856 [twitch4j-0MEF-1] WARN  c.g.twitch4j.pubsub.TwitchPubSub - Can't send IRC-WS Command [{"type":"PING","data":{}}]
+2022-04-06 01:45:26.858 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 01:45:27.872 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 01:45:27.872 [WritingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 01:45:27.933 [twitch4j-0MEF-3] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"EtQQtX1mSiy5EqTGtFJv9Nwj19YQ7x","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-06 01:46:01.789 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-06 01:46:03.695 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-06 01:46:03.759 [twitch4j-0MEF-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-06 01:46:03.760 [twitch4j-0MEF-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 01:46:03.879 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-06 01:46:03.879 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-06 01:46:03.879 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-06 01:46:34.143 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 01:46:34.333 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 01:50:25.908 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 01:50:34.144 [twitch4j-0MEF-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 01:50:34.329 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 01:54:34.147 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 01:54:34.332 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 01:55:13.133 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 02:19:02.894 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:19:02.894 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:19:02.895 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:19:02.895 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:19:02.896 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:19:02.896 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:19:12.908 [twitch4j-0MEF-3] WARN  c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Didn't receive a PONG response in time, reconnecting to obtain a connection to a different server.
+2022-04-06 02:19:13.904 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 02:19:13.904 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 02:19:13.956 [twitch4j-0MEF-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"EtQQtX1mSiy5EqTGtFJv9Nwj19YQ7x","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-06 02:19:29.713 [WritingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-06 02:19:34.835 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-06 02:19:34.889 [twitch4j-0MEF-5] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-06 02:19:34.890 [twitch4j-0MEF-5] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 02:19:35.015 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-06 02:19:35.016 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-06 02:19:35.016 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-06 02:41:51.404 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:41:51.404 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:41:51.405 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:41:51.405 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:41:51.405 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:42:01.421 [twitch4j-0MEF-5] WARN  c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Didn't receive a PONG response in time, reconnecting to obtain a connection to a different server.
+2022-04-06 02:42:02.406 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connecting to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 02:42:02.407 [ReadingThread] INFO  c.g.twitch4j.pubsub.TwitchPubSub - Connected to Twitch PubSub wss://pubsub-edge.twitch.tv:443
+2022-04-06 02:42:02.459 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - Processed command from queue: [{"type":"LISTEN","nonce":"EtQQtX1mSiy5EqTGtFJv9Nwj19YQ7x","data":{"topics":["community-points-channel-v1.189073898"],"auth_token":"•••"}}].
+2022-04-06 02:42:26.402 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC lost (WebSocket)! Retrying soon ...
+2022-04-06 02:42:31.364 [ReadingThread] INFO  com.github.twitch4j.chat.TwitchChat - Connecting to Twitch IRC wss://irc-ws.chat.twitch.tv:443
+2022-04-06 02:42:31.416 [twitch4j-0MEF-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #jojo56627_apps].
+2022-04-06 02:42:31.417 [twitch4j-0MEF-2] DEBUG com.github.twitch4j.chat.TwitchChat - Processed command from queue: [JOIN #grifermob].
+2022-04-06 02:42:31.548 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/tags
+2022-04-06 02:42:31.549 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/commands
+2022-04-06 02:42:31.550 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Acquired chat capability: twitch.tv/membership
+2022-04-06 02:42:31.760 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 02:42:32.961 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:42:33.138 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 02:46:32.962 [twitch4j-0MEF-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:46:33.139 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 02:46:49.754 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 02:50:32.961 [twitch4j-0MEF-5] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:50:33.140 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 02:51:06.142 [ReadingThread] DEBUG com.github.twitch4j.chat.TwitchChat - Responding to PING request!
+2022-04-06 02:54:32.975 [twitch4j-0MEF-1] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Sending PING!
+2022-04-06 02:54:33.157 [ReadingThread] DEBUG c.g.twitch4j.pubsub.TwitchPubSub - PubSub: Received PONG response!
+2022-04-06 07:37:24.658 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-06 07:37:25.184 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-06 07:37:25.200 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-06 07:37:25.247 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-06 07:37:25.247 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-06 07:37:55.827 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-06 07:37:55.899 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-06 07:47:26.031 [main] DEBUG c.g.twitch4j.TwitchClientBuilder - TwitchClient: Initializing ErrorTracking ...
+2022-04-06 07:47:26.404 [main] INFO  c.g.p.events4j.core.EventManager - Auto Discovery: SimpleEventHandler registered!
+2022-04-06 07:47:26.417 [main] DEBUG c.g.t.helix.TwitchHelixBuilder - Helix: Initializing Module ...
+2022-04-06 07:47:26.469 [main] WARN  c.n.c.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2022-04-06 07:47:26.469 [main] INFO  c.n.c.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-06 07:48:03.368 [main] DEBUG c.g.t.kraken.TwitchKrakenBuilder - Kraken: Initializing Module ...
+2022-04-06 07:48:03.508 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing ErrorTracking ...
+2022-04-06 07:48:33.575 [main] DEBUG c.g.twitch4j.chat.TwitchChatBuilder - TwitchChat: Initializing Module ...
+2022-04-06 07:48:33.592 [main] INFO  com.github.twitch4j.chat.TwitchChat - TwitchChat: AccessToken does not contain any user information, fetching using the CredentialManager ...
+2022-04-06 07:48:45.631 [main] ERROR com.github.twitch4j.chat.TwitchChat - TwitchChat: Failed to get AccessToken Information, the token is probably not valid. Please check the docs Twitch4J -> Chat on how to obtain a valid token.
+2022-04-06 07:48:57.747 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 10 common frames omitted
+2022-04-06 07:49:02.213 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 12 common frames omitted
+2022-04-06 07:49:03.439 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 14 common frames omitted
+2022-04-06 07:49:03.560 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 16 common frames omitted
+2022-04-06 07:49:20.621 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 18 common frames omitted
+2022-04-06 07:49:44.057 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 20 common frames omitted
+2022-04-06 07:49:46.667 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: irc-ws.chat.twitch.tv
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: irc-ws.chat.twitch.tv
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 22 common frames omitted
+2022-04-06 07:50:18.313 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to resolve hostname irc-ws.chat.twitch.tv:443: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:180)
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:108)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.UnknownHostException: Der angegebene Host ist unbekannt (irc-ws.chat.twitch.tv)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at com.neovisionaries.ws.client.SocketConnector.resolveHostname(SocketConnector.java:139)
+	... 24 common frames omitted
+2022-04-06 07:51:10.612 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to connect to 'irc-ws.chat.twitch.tv:443': Connection timed out: connect
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:126)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at com.neovisionaries.ws.client.SocketInitiator$SocketRacer.run(SocketInitiator.java:126)
+2022-04-06 07:54:26.092 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to connect to 'irc-ws.chat.twitch.tv:443': Connection timed out: connect
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:126)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at com.neovisionaries.ws.client.SocketInitiator$SocketRacer.run(SocketInitiator.java:126)
+2022-04-06 07:56:12.532 [main] ERROR com.github.twitch4j.chat.TwitchChat - Connection to Twitch IRC failed: Retrying ...
+com.neovisionaries.ws.client.WebSocketException: Failed to connect to 'irc-ws.chat.twitch.tv:443': Connection timed out: connect
+	at com.neovisionaries.ws.client.SocketConnector.connectSocket(SocketConnector.java:126)
+	at com.neovisionaries.ws.client.SocketConnector.doConnect(SocketConnector.java:238)
+	at com.neovisionaries.ws.client.SocketConnector.connect(SocketConnector.java:189)
+	at com.neovisionaries.ws.client.WebSocket.connect(WebSocket.java:2351)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:469)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.reconnect(TwitchChat.java:510)
+	at com.github.twitch4j.chat.TwitchChat.connect(TwitchChat.java:479)
+	at com.github.twitch4j.chat.TwitchChat.<init>(TwitchChat.java:339)
+	at com.github.twitch4j.chat.TwitchChatBuilder.build(TwitchChatBuilder.java:284)
+	at com.github.twitch4j.TwitchClientBuilder.build(TwitchClientBuilder.java:426)
+	at net.quarxy.twitchBot.Bot.<init>(Bot.java:80)
+	at net.quarxy.twitchBot.Launcher.main(Launcher.java:9)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:579)
+	at java.base/sun.nio.ch.Net.connect(Net.java:568)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)
+	at com.neovisionaries.ws.client.SocketInitiator$SocketRacer.run(SocketInitiator.java:126)
