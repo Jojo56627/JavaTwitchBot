@@ -32,7 +32,8 @@ public class BotUser {
     }
 
     public static BotUser get(String query) {
-        return users.stream().filter(botUser -> Objects.equals(botUser.twitchUserID, query) || Objects.equals(botUser.twitchUsername, query)).toList().get(0);
+        System.out.println(users);
+        return users.stream().filter(botUser -> botUser.twitchUserID.equalsIgnoreCase(query) || botUser.twitchUsername.equalsIgnoreCase(query)).toList().get(0);
     }
 
     public int getBalance() {
@@ -65,5 +66,9 @@ public class BotUser {
 
     public void removeFromBalance(int amount) {
         this.balance -= amount;
+    }
+
+    public String toString() {
+        return "BotUser(twitchUsername=" + twitchUsername + ", twitchUserID=" + twitchUserID + ")";
     }
 }

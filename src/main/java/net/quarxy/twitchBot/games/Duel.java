@@ -16,7 +16,7 @@ public class Duel extends Game {
     }
 
     @Override
-    public void play() {
+    public void start() {
         double winProbability = calculateWinProbabilityOfAttacker(getPlayers().get(0), getPlayers().get(1));
         if(Math.random() <= winProbability) {
             getPlayers().get(0).addToBalance((int) Math.floor(100-winProbability));

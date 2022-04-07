@@ -46,7 +46,7 @@ public abstract class Game {
     }
 
     public boolean addPlayer(BotUser player, int bet) {
-        if(this.players.size() + 1 > this.maxPlayers) {
+        if(this.players.size() + 1 > this.maxPlayers || this.players.containsKey(player)) {
             return false;
         }
         this.players.put(player, bet);
@@ -61,5 +61,13 @@ public abstract class Game {
         }
     }
 
-    public abstract void play();
+    public void checkStart() {
+        if(this.players.size() == this.maxPlayers) {
+            start();
+        } else {
+            start();
+        }
+    }
+
+    public abstract void start();
 }

@@ -36,5 +36,9 @@ public class Utils {
         };
     }
 
+    public static String parseName(String argument) {
+        return (argument.startsWith("@") ? argument.substring(1) : argument);
+    }
+
 
 }
