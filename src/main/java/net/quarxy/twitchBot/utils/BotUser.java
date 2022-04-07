@@ -13,12 +13,14 @@ public class BotUser {
     private final String twitchUsername;
     private final String twitchUserID;
     private int balance;
+    private final int duelWins;
 
     public BotUser(String twitchUsername, String twitchUserID, int balance) {
         this.twitchUsername = twitchUsername;
         this.twitchUserID = twitchUserID;
         this.balance = balance;
         users.add(this);
+        this.duelWins = 10;
     }
 
     public static List<BotUser> getUsers() {
@@ -37,6 +39,10 @@ public class BotUser {
         return balance;
     }
 
+    public int getDuelWins() {
+        return duelWins;
+    }
+
     public String getTwitchUsername() {
         return twitchUsername;
     }
@@ -46,10 +52,18 @@ public class BotUser {
     }
 
     public BotUser(String twitchUsername, String twitchUserID) {
-        this(twitchUsername, twitchUserID, 0);
+        this(twitchUsername, twitchUserID, 99999);
     }
 
     public void setBalance(int balance) {
         this.balance = balance;
+    }
+
+    public void addToBalance(int amount) {
+        this.balance += amount;
+    }
+
+    public void removeFromBalance(int amount) {
+        this.balance -= amount;
     }
 }
