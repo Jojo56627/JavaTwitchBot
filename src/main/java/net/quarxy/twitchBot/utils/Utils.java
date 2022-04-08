@@ -24,8 +24,12 @@ public class Utils {
         return Bot.getInstance().getTwitchClient().getMessagingInterface().getChatters(channel).execute();
     }
 
-    public static String getNoPermissionMessage(String username, Permission permission) {
-        return "@" + username + " Leider bist du nicht qualifiziert, diese Kanalbelohnung zu nutzen. (Missing Permission: " + permission + ")";
+    public static String getNoPermissionMessage(String username, Permission permission, boolean isCommand) {
+        if(isCommand) {
+            return "@" + username + " Leider bist du nicht qualifiziert, diesen Befehl zu nutzen. (Missing Permission: " + permission + ")";
+        } else {
+            return "@" + username + " Leider bist du nicht qualifiziert, diese Kanalbelohnung zu nutzen. (Missing Permission: " + permission + ")";
+        }
     }
 
     public static String getDescription(String command) {

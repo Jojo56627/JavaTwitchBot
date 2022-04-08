@@ -12,13 +12,19 @@ public abstract class Game {
     private final String description;
     private final int minPlayers;
     private final int maxPlayers;
+    private final BotUser initiator;
     private final HashMap<BotUser, Integer> players = new HashMap<>();
 
-    public Game(String title, String description, int minPlayers, int maxPlayers) {
+    public Game(String title, String description, int minPlayers, int maxPlayers, BotUser initiator) {
         this.title = title;
         this.description = description;
         this.minPlayers = minPlayers;
         this.maxPlayers = maxPlayers;
+        this.initiator = initiator;
+    }
+
+    public BotUser getInitiator() {
+        return initiator;
     }
 
     public String getTitle() {

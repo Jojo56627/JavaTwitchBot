@@ -5,19 +5,19 @@ import net.quarxy.twitchBot.utils.BotUser;
 import net.quarxy.twitchBot.utils.GameStorage;
 
 import javax.swing.plaf.ButtonUI;
+import java.time.Duration;
 import java.util.Random;
 
 public class RussianRoulette extends Game {
 
     private final int bet;
 
-    public RussianRoulette(int bet) {
+    public RussianRoulette(BotUser initiator, int bet) {
         super("Russisches Roulette",
                 "Bei das Game hier du geteimoutet wirst weil halt Glücksspiel!",
-                2, 2);
+                2, 2, initiator);
         this.bet = bet;
     }
-
 
     @Override
     public void start() {
@@ -35,6 +35,7 @@ public class RussianRoulette extends Game {
                 }
             }
             if(died != null) {
+                Bot.getInstance().getTwitchClient().getChat().timeout("grifermob", died.getTwitchUsername(), Duration.ofSeconds(30), "Russisches Roulette endet leider tödlich.");
                 died.removeFromBalance(bet);
                 Bot.getInstance().getTwitchClient().getChat().sendMessage("grifermob",
                         "@" + died.getTwitchUsername() + ": -" + bet);

@@ -7,8 +7,15 @@ import java.util.Random;
 
 public class Duel extends Game {
 
-    public Duel(String title, String description, int minPlayers, int maxPlayers) {
-        super("Duel", "Bei diesem Spiel kannst du um Geld wetten", 2, 2);
+    private final BotUser defender;
+
+    public Duel(BotUser initiator, BotUser defender) {
+        super("Duel", "Bei diesem Spiel kannst du um Geld wetten", 2, 2, initiator);
+        this.defender = defender;
+    }
+
+    public BotUser getDefender() {
+        return defender;
     }
 
     public static double calculateWinProbabilityOfAttacker(BotUser attacker, BotUser defender) {
@@ -17,17 +24,22 @@ public class Duel extends Game {
 
     @Override
     public void start() {
-        double winProbability = calculateWinProbabilityOfAttacker(getPlayers().get(0), getPlayers().get(1));
+        double winProbability = calculateWinProbabilityOfAttacker(getInitiator(), getDefender());
+        System.out.println(winProbability);
         if(Math.random() <= winProbability) {
-            getPlayers().get(0).addToBalance((int) Math.floor(100-winProbability));
-            getPlayers().get(1).removeFromBalance((int) Math.floor(100-winProbability));
+            getInitiator().addToBalance((int) Math.floor(100-(winProbability*100)));
+            getDefender().removeFromBalance((int) Math.floor(100-(winProbability*100)));
             Bot.getInstance().getTwitchClient().getChat().sendMessage("grifermob", "Der Angriff " +
                     "war erfolgreich");
+            getInitiator().addDuelWins(1);
+            getDefender().removeDuelWins(1);
         } else {
-            getPlayers().get(0).addToBalance((int) Math.floor(100-winProbability));
-            getPlayers().get(1).removeFromBalance((int) Math.floor(100-winProbability));
+            getInitiator().removeFromBalance((int) Math.floor(winProbability*100));
+            getDefender().removeFromBalance((int) Math.floor(winProbability*100));
             Bot.getInstance().getTwitchClient().getChat().sendMessage("grifermob", "Der Angriff " +
                     "wurde vereitelt");
+            getDefender().addDuelWins(1);
+            getInitiator().removeDuelWins(1);
         }
     }
 }
